@@ -1,0 +1,147 @@
+{
+  "repository": {
+    "name": "idealista-property-scraper-python",
+    "description": "Python, JavaScript and cURL examples for collecting structured Idealista property listings through Apify.",
+    "homepage": "https://apify.com/datascraperes/idealista-property-search-scraper?fpr=edudata",
+    "language": "Python",
+    "license": "MIT"
+  },
+  "actor": {
+    "displayName": "Idealista Property Listings Scraper | Sale & Rent",
+    "id": "datascraperes/idealista-property-search-scraper",
+    "storeUrl": "https://apify.com/datascraperes/idealista-property-search-scraper",
+    "apiBaseUrl": "https://api.apify.com/v2/acts/datascraperes~idealista-property-search-scraper",
+    "description": "Search Idealista listings across Spain, Portugal, Italy and France and return deduplicated records with public property details and multimedia metadata."
+  },
+  "affiliate": {
+    "enabled": true,
+    "parameter": "fpr=edudata",
+    "actorUrl": "https://apify.com/datascraperes/idealista-property-search-scraper?fpr=edudata",
+    "pricingUrl": "https://apify.com/pricing?fpr=edudata"
+  },
+  "platform": {
+    "apifyFreePlan": {
+      "monthlyPrepaidUsage": "$5",
+      "renewsMonthly": true,
+      "noCreditCardRequired": true,
+      "unusedCreditsExpire": true,
+      "sourceUrl": "https://apify.com/pricing?fpr=edudata"
+    }
+  },
+  "interfaces": {
+    "web": {
+      "enabled": true,
+      "inputTab": "Input",
+      "outputTab": "Dataset",
+      "runAction": "Start",
+      "primaryInput": "locations",
+      "inputLabel": "Locations",
+      "inputSummary": "Enter one or more place names such as Madrid, Málaga, Lisboa, Milano or Paris. The Actor resolves each place before searching.",
+      "exportFormats": [
+        "JSON",
+        "CSV"
+      ]
+    },
+    "api": {
+      "enabled": true,
+      "examples": [
+        "cURL",
+        "Python",
+        "JavaScript"
+      ]
+    }
+  },
+  "seo": {
+    "primaryKeyword": "Idealista property scraper",
+    "secondaryKeywords": [
+      "Idealista listings API",
+      "real estate listings scraper",
+      "property listings to CSV",
+      "Spain property data",
+      "sale and rent listings API"
+    ],
+    "topics": [
+      "idealista",
+      "real-estate-data",
+      "property-listings",
+      "web-scraping",
+      "apify",
+      "python"
+    ],
+    "longTailIntents": [
+      "How to collect Idealista property listings with Python",
+      "How to export Idealista listings to CSV",
+      "How to search Spanish property listings for sale or rent"
+    ]
+  },
+  "content": {
+    "readmeSectionOrder": [
+      "What this repository helps you do",
+      "Example result",
+      "Run without code",
+      "Try it with Apify's free plan",
+      "Quick start for developers",
+      "Input example",
+      "Request examples",
+      "Output fields",
+      "Common use cases",
+      "Long-tail use-case sections",
+      "FAQ",
+      "Limits and pricing",
+      "Hosted version",
+      "Responsible use",
+      "Support"
+    ],
+    "exampleFiles": [
+      "examples/python/idealista_listings.py",
+      "examples/python/export_listings_csv.py",
+      "examples/python/filter_listings.py"
+    ],
+    "faqFile": "docs/faq.md"
+  },
+  "pricing": {
+    "summary": "Pay per successful unique listing saved to the Dataset. The current tiered event prices are $0.001500 per listing at FREE, $0.001350 at BRONZE, $0.001200 at SILVER, and $0.001125 at GOLD, PLATINUM and DIAMOND; the Actor page is the source of truth for current pricing.",
+    "unit": "one successful unique listing saved to the default Dataset",
+    "price": "$0.001500 per listing at FREE tier ($1.50 per 1,000 listings)"
+  },
+  "distribution": {
+    "githubUrl": "https://github.com/datacrawler-edu/idealista-property-scraper-python",
+    "actorToGithubUrl": "https://github.com/datacrawler-edu/idealista-property-scraper-python",
+    "githubToActorUrl": "https://apify.com/datascraperes/idealista-property-search-scraper?fpr=edudata",
+    "organizationHubUrl": "https://github.com/datacrawler-edu",
+    "firstRelease": {
+      "tag": "v1.0.0",
+      "title": "Initial public integration examples"
+    }
+  },
+  "examples": {
+    "inputFile": "data/sample-input.json",
+    "outputFile": "data/sample-output.json",
+    "csvFile": "data/sample-output.csv"
+  },
+  "measurement": {
+    "observationWindowDays": 30,
+    "githubSignals": [
+      "views",
+      "uniqueVisitors",
+      "clones",
+      "referrers",
+      "popularContent"
+    ],
+    "apifySignals": [
+      "users",
+      "runs",
+      "datasetItems",
+      "revenue"
+    ],
+    "searchChecks": [
+      "site:github.com/datacrawler-edu/idealista-property-scraper-python",
+      "Idealista property scraper Python",
+      "Idealista listings API CSV"
+    ]
+  },
+  "support": {
+    "issuesUrl": "https://github.com/datacrawler-edu/idealista-property-scraper-python/issues",
+    "actorSupportUrl": "https://apify.com/datascraperes/idealista-property-search-scraper?fpr=edudata"
+  }
+}

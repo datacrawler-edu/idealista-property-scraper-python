@@ -1,0 +1,8 @@
+{
+  "country": "es",
+  "locations": ["Madrid"],
+  "operation": "sale",
+  "propertyType": "homes",
+  "maxPrice": 300000,
+  "maxItems": 30
+}

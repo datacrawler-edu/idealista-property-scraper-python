@@ -1,0 +1,2 @@
+propertyCode,country,operation,propertyType,price,size,rooms,bedrooms,bathrooms,municipality,detailStatus,url
+example-idealista-001,es,sale,flat,285000,82,3,2,1,Madrid,fetched,https://www.idealista.com/inmueble/example-idealista-001/

@@ -1,0 +1,79 @@
+[
+  {
+    "propertyCode": "example-idealista-001",
+    "url": "https://www.idealista.com/inmueble/example-idealista-001/",
+    "title": "Two-bedroom apartment near the city centre",
+    "country": "es",
+    "operation": "sale",
+    "propertyType": "flat",
+    "locationId": "example-location-id",
+    "extendedPropertyType": "flat",
+    "homeType": "flat",
+    "typology": "flat",
+    "price": 285000,
+    "priceInfo": {
+      "price": {
+        "amount": 285000,
+        "currencySuffix": "€"
+      }
+    },
+    "priceByArea": 3475.61,
+    "priceDropValue": null,
+    "priceDropPercentage": null,
+    "priceDropInfo": null,
+    "address": "Example street, Madrid",
+    "municipality": "Madrid",
+    "province": "Madrid",
+    "district": "Centro",
+    "neighborhood": "Example neighbourhood",
+    "latitude": 40.4168,
+    "longitude": -3.7038,
+    "size": 82,
+    "usableArea": 74,
+    "rooms": 3,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "floor": "3",
+    "exterior": true,
+    "hasLift": true,
+    "hasParking": false,
+    "hasVideo": false,
+    "has360": false,
+    "has3DTour": false,
+    "newDevelopment": false,
+    "newProperty": false,
+    "status": "active",
+    "description": "Sanitized example description for documentation.",
+    "externalReference": "EXAMPLE-001",
+    "thumbnail": null,
+    "numPhotos": 12,
+    "features": {
+      "hasSwimmingPool": false,
+      "hasTerrace": true,
+      "hasAirConditioning": true,
+      "hasBoxRoom": false,
+      "hasGarden": false
+    },
+    "labels": [],
+    "contactInfo": null,
+    "energyCertification": {
+      "title": "Example certification",
+      "energyConsumption": {"type": "b"},
+      "emissions": {"type": "b"}
+    },
+    "multimedia": {
+      "images": [],
+      "videos": [],
+      "hasMultimediasMadeByIdealista": false
+    },
+    "detailStatus": "fetched",
+    "sourceData": {
+      "search": {"propertyCode": "example-idealista-001"},
+      "detail": {"detailWebLink": "https://www.idealista.com/inmueble/example-idealista-001/"},
+      "multimedia": {"images": [], "videos": []}
+    },
+    "modificationDate": "Example update date",
+    "searchLocation": "Madrid, Madrid",
+    "scrapedAt": "2026-09-29T12:00:00Z"
+  }
+]
